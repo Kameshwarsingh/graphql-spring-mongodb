@@ -12,13 +12,13 @@
 
 ### 1) Add new author (Insert data)
 
-mutation {
-  newAuthor(firstName: "Mahatma", lastName: "Gandhi") {
-    authorId
-    firstName
-    lastName
-  }
-}
+    mutation {
+      newAuthor(firstName: "Mahatma", lastName: "Gandhi") {
+        authorId
+        firstName
+        lastName
+      }
+    }
 
 
 Note: Make note of authorId and use it for inserting book record
@@ -26,30 +26,30 @@ Note: Make note of authorId and use it for inserting book record
 
 ### 2) Add new book (Insert data)
 
-mutation {
-  newBook(
-    title: "Satyagraha in South Africa",
-    isbn: "8172290412",
-    author: 1) {
-      bookId
-      title
-  }
-}
+    mutation {
+      newBook(
+        title: "Satyagraha in South Africa",
+        isbn: "8172290412",
+        author: 1) {
+          bookId
+          title
+      }
+    }
 
 Note: In above example (Inserting book data) we have used "author: 1", instead use correct authorId received from first step (Inserting author data).
 
 
 ### 3) View all books (Query data)
 
-{
-  findAllBooks {
-    bookId
-    isbn
-    title
-    pageCount
-    author {
-      firstName
-      lastName
+    {
+      findAllBooks {
+        bookId
+        isbn
+        title
+        pageCount
+        author {
+          firstName
+          lastName
+        }
+      }
     }
-  }
-}
