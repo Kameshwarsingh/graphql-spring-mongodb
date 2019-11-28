@@ -4,9 +4,10 @@
 3) MongoDB Community edition. [ https://docs.mongodb.com/manual/administration/install-community/ ] 
 
 
-## Graphiql is accessible to http://localhost:8080/graphiql
+## Graphiql is accessible at - http://localhost:8080/graphiql
 
-## 1) Add new author
+### 1) Add new author
+
 mutation {
   newAuthor(firstName: "Mahatma", lastName: "Gandhi") {
     firstName
@@ -14,7 +15,8 @@ mutation {
   }
 }
 
-## 2) Add new book
+### 2) Add new book
+
 mutation {
   newBook(
     title: "Satyagraha in South Africa",
@@ -26,7 +28,8 @@ mutation {
 }
 
 
-## 3) View all books
+### 3) View all books
+
 {
   findAllBooks {
     bookId
