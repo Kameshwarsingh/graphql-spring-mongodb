@@ -71,7 +71,7 @@ public class Application {
 	@Bean
 	public CommandLineRunner testData(AuthorRepository authorRepository, BookRepository bookRepository) {
 		return (args) -> {
-			Author author = new Author("Mahatma", "Gandhi");
+			Author author = new Author("Mahatma M. K. ", "Gandhi");
 			authorRepository.save(author);
 
 			bookRepository.save(new Book("Satyagraha in South Africa", "8172290412", 375, author));
