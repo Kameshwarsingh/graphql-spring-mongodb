@@ -7,7 +7,7 @@
 
 ## Build using maven and test using graphiql UI
 
-### Graphiql UI is  at - http://localhost:8080/graphiql
+### GraphiQL-UI is  available at - http://localhost:8080/graphiql
 
 
 ### 1) Add new author (Insert data)
