@@ -1,3 +1,4 @@
+## GraphQL using Java and Springboot
 Idea of this sample program is to illustrated GraphQL using Java, Springboot, and MongoDB as data-store. This sample java/maven code is to illustrate GraphQL mutation and query, code must be used only as an example. This example also illustrates GraphiQL for quick testing and experimenting with dynamic query and mutation.
 
 ## Dependencies 
