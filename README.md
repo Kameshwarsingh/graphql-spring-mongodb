@@ -4,9 +4,12 @@
 3) MongoDB Community edition. [ https://docs.mongodb.com/manual/administration/install-community/ ] 
 
 
+
+
 ## Build using maven and test using graphiql UI
 
 ### Graphiql is accessible at - http://localhost:8080/graphiql
+
 
 ### 1) Add new author
 
