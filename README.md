@@ -4,7 +4,8 @@ Idea of this sample program is to illustrated GraphQL using Java, Springboot, an
 ## Dependencies 
         1) Java 8 or 9
         2) Maven (Preferably  Maven 3.6.0  or latest)
-        3) MongoDB Community edition. [ https://docs.mongodb.com/manual/administration/install-community/ ] 
+        3) MongoDB Community edition. [ You are required to install mongodb on your laptop/mac. This example uses mongodb as data store. Community edition is available at https://docs.mongodb.com/manual/administration/install-community/ ] 
+        4) GraphQL, SpringBoot [ These dependencies will be pulled by maven at build time ]
 
 
 ## Build and Test
