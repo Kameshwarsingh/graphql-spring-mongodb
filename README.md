@@ -1,26 +1,30 @@
 # Rquirements to run this example 
-1) Java 1.8
-2) Maven (preferrably latest)
+1) Java 8 or 9
+2) Maven (Preferably  Maven 3.6.0  or latest)
 3) MongoDB Community edition. [ https://docs.mongodb.com/manual/administration/install-community/ ] 
-
 
 
 
 ## Build using maven and test using graphiql UI
 
-### Graphiql is accessible at - http://localhost:8080/graphiql
+### Graphiql UI is  at - http://localhost:8080/graphiql
 
 
-### 1) Add new author
+### 1) Add new author (Insert data)
 
 mutation {
   newAuthor(firstName: "Mahatma", lastName: "Gandhi") {
+    authorId
     firstName
     lastName
   }
 }
 
-### 2) Add new book
+
+Note: Make note of authorId and use it for inserting book record
+
+
+### 2) Add new book (Insert data)
 
 mutation {
   newBook(
@@ -32,8 +36,10 @@ mutation {
   }
 }
 
+Note: In above example (Inserting book data) we have used "author: 1", instead use correct authorId received from first step (Inserting author data).
 
-### 3) View all books
+
+### 3) View all books (Query data)
 
 {
   findAllBooks {
