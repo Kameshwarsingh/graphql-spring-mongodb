@@ -1,9 +1,9 @@
 Idea of this sample program is to illustrated GraphQL using Java, Springboot, and MongoDB as data-store. This sample java/maven code is to illustrate GraphQL mutation and query, code must be used only as an example. This example also illustrates GraphiQL for quick testing and experimenting with dynamic query and mutation.
 
-# Dependencies 
-1) Java 8 or 9
-2) Maven (Preferably  Maven 3.6.0  or latest)
-3) MongoDB Community edition. [ https://docs.mongodb.com/manual/administration/install-community/ ] 
+## Dependencies 
+        1) Java 8 or 9
+        2) Maven (Preferably  Maven 3.6.0  or latest)
+        3) MongoDB Community edition. [ https://docs.mongodb.com/manual/administration/install-community/ ] 
 
 
 ## Build and Test
