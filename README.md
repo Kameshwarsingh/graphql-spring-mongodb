@@ -13,7 +13,7 @@
 ### 1) Add new author (Insert data)
 
     mutation {
-      newAuthor(firstName: "Mahatma", lastName: "Gandhi") {
+      newAuthor(firstName: "Mahatma  M. K. ", lastName: "Gandhi") {
         authorId
         firstName
         lastName
