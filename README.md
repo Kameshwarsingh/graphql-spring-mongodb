@@ -59,7 +59,7 @@ Note: In above example (Inserting book data) we have used "author: 1", instead u
 ### 4) View  books by Ids (Query data)
 
         {
-          query: findAllBooksById(bookIds: [8788067722174966682, 385684065078828766]) {
+          query: findAllBooksById(bookIds: [id1, id2]) {
             bookId
             author {
               firstName
